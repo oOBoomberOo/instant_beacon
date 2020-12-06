@@ -2,6 +2,8 @@
 	"values": [
 		"minecraft:air",
 		"minecraft:water",
-		"minecraft:lava"
+		"minecraft:lava",
+		"minecraft:grass",
+		"minecraft:tall_grass"
 	]
 }
