@@ -1,0 +1,1 @@
+function boomber:instant_beacon/beacon/move_up/block

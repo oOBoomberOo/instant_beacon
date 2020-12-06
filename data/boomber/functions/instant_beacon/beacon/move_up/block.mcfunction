@@ -1,0 +1,1 @@
+execute if block ~ ~1 ~ #boomber:instant_beacon/replaceable if block ~ ~ ~ #boomber:instant_beacon/beacon run clone ~ ~ ~ ~ ~ ~ ~ ~1 ~ replace move

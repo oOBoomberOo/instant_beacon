@@ -1,0 +1,2 @@
+function boomber:instant_beacon/beacon/move_up/run
+	execute positioned ~-2 ~-1 ~-2 run function boomber:instant_beacon/beacon/level/fill
