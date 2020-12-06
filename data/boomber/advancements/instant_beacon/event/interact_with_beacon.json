@@ -1,5 +1,13 @@
 {
 	"criteria": {
+		"place_material": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "boomber:instant_beacon/materials"
+				}
+			}
+		},
 		"use_material_on_beacon": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
@@ -21,7 +29,5 @@
 			}
 		}
 	},
-	"rewards": {
-		"function": "boomber:instant_beacon/event/interact_with_beacon/call"
-	}
+	"requirements": [["use_material_on_beacon", "place_material"]]
 }
