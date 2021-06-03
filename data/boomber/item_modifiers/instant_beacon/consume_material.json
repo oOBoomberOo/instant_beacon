@@ -1,0 +1,11 @@
+{
+	"function": "minecraft:set_count",
+	"count": {
+		"type": "score",
+		"target": {
+			"type": "fixed",
+			"name": "#material_amount"
+		},
+		"score": "bb.ib.var"
+	}
+}
